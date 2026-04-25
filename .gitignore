@@ -1,1 +1,11 @@
 .env
+
+# Python cache / local env
+__pycache__/
+*.py[cod]
+venv/
+
+# Local runtime storage
+app/storage/*.db
+app/storage/*.sqlite3
+app/storage/chroma/
