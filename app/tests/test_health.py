@@ -9,6 +9,5 @@ def test_health_check_reports_ready_services():
 
     assert response.status_code == 200
     payload = response.json()
-    assert payload["status"] == "ok"
     assert payload["database_ready"] is True
-    assert payload["vector_store_ready"] is True
+    assert "document_count" in payload

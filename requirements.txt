@@ -1,0 +1,14 @@
+fastapi
+uvicorn
+streamlit
+requests
+pydantic
+pydantic-settings
+chromadb
+ollama
+PyPDF2
+langchain-text-splitters
+groq
+ragas
+datasets
+pytest

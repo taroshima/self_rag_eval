@@ -9,3 +9,6 @@ venv/
 app/storage/*.db
 app/storage/*.sqlite3
 app/storage/chroma/
+
+# Local uploaded/reference documents outside the curated demo set
+app/data/*.pdf
